@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+    color: #393E46;
+}
+
+.title-text h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #222831; /* Darker color for better contrast */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Subtle white shadow */
+}
+
+.title-text h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #222831; /* Darker color for better contrast */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Subtle white shadow */
+}
+
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: #EEEEEE;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url("../images/Background.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+
+.playwrite-mx-name {
+    font-family: "Playwrite MX", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #050C9C;
+    font-size: 3em;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: "Playwrite MX", cursive;
+    color: #050C9C;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.middle-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #EEEEEE;
+    border-top: 5px solid #00ADB5;
+    border-bottom: 5px solid #00ADB5;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.profile h2 {
+    font-size: 2em;
+    margin: 20px 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile .intro {
+    font-size: 1.2em;
+    margin: 10px 0 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+}
+
+.skills {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills .skill-row {
+    margin-bottom: 20px;
+}
+
+.skills .skill-details h3 {
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills .skill-details p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-me {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.contact-me h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-me h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-me .contact-message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-me .btn {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.bottom-container {
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-link {
+    color: #00ADB5;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.bottom-container p {
+    margin: 20px 0 0;
+}
